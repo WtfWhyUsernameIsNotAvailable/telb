@@ -2,8 +2,8 @@ import os
 import telebot
 
 # Получаем токен и ID админа из переменных окружения
-TOKEN = os.environ["BOT_TOKEN"]
-ADMIN_ID = int(os.environ["ADMIN_ID"])
+TOKEN = os.environ["8434031550:AAHNBoj-YMo1F9EIEuZypGDc7ofPPeK2rco"]
+ADMIN_ID = int(os.environ["2129917105"])
 
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 
